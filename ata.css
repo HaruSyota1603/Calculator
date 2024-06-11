@@ -1,0 +1,58 @@
+@font-face {
+    font-family: manuel;
+    src: url(../fonte/good\ timing\ bd.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* plano de fundo */
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/027/612/410/non_2x/abstract-gradient-blur-design-background-style-y2k-background-free-vector.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* caixa de texto */
+form h1 {
+    font-family: manuel;
+    font-size: 3rem;
+
+}
+
+form {
+    margin-top: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.164);
+    color: #000000;
+    font-size: 1.5rem;
+    text-shadow: #0484A4 1.5px 1px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    display: grid;
+    padding: 2.5rem;
+    border-radius: 10%;
+ 
+
+}
+
+form input {
+    border-radius: 5px;
+    padding-right: 50%;
+    border-color: #0a2355;
+}
+
+form select {
+    border-radius: 5px;
+    padding-right: 50%;
+    border-color: #0a2355;
+    color: rgb(142, 71, 189);
+}
